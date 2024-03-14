@@ -34,7 +34,7 @@ def detect_outliers(data, columns_to_check):
 
 # Streamlit app
 def main():
-    st.title("Outlier Detection App")
+    st.title("Outlier Detection")
     
     # Load the data
     data = load_data()
